@@ -1,0 +1,101 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  box-shadow: 0 0px 30px gray; 
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:white;
+  overflow-x: hidden;
+  padding-top: 20px; 
+
+}
+
+.sidenav a {
+  padding: 20px;
+  text-decoration: none;
+  text-overflow: center;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+.center {
+  text-align: center;
+  width: 100%;
+  }
+
+.sidenav a:hover {
+  color: black;
+  background-color: lightblue;
+}
+
+.header{
+  padding: 60px;
+  background-color: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+  margin: -8px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.texts{
+  position: relative;
+  left: 290px;
+  bottom: -92px;
+  height: 30px;
+  width: 830px;
+  border-radius: 10px;
+  border: none;
+
+}
+input{
+  text-decoration: bold black  ;  
+}
+
+p {
+  text-align:   center; 
+  position:   relative; 
+  bottom:   -135px;
+}
+
+.container{
+  height: 150px;
+  width: 150px;
+  position: relative;
+  left: 289px;
+  background-color: white;
+  top: 150px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+  position:  relative; 
+  top: 35px;
+  left: 160px;
+}
+
+img {
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+h5 {
+  position:  relative; 
+  top: 120px;
+  left: 50%;
+}
+
+
